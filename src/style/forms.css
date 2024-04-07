@@ -1,0 +1,12 @@
+.form-div{
+    bottom: -70px;
+    width: 80%;border-radius:200px;
+}
+.form-border{
+border-width: 2px;
+border-color: black;
+width: 75%;
+}
+.btn-2{
+    background-color: rgb(255, 147, 23);
+}

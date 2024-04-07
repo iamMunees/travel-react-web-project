@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @apply bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+}
+.mobile-nav {
+    @apply fixed top-10 left-0 bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full overflow-y-auto h-1/2;
+  }
+  
+  .mobile-nav li {
+    @apply w-full h-full text-center border-b-2;
+  }
+  .moreplace{
+    position: absolute;
+    top:1px;
+  }
